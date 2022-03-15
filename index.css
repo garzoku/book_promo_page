@@ -1,7 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size:22px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 body {
@@ -61,7 +61,7 @@ ul a {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
     text-align: left;
-    padding-top: 4em;
+    padding-top: 2em;
 }
 .grid-3 {
     grid-column: 2 / span 1;
