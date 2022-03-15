@@ -1,4 +1,7 @@
+*{font-family: Arial, Helvetica, sans-serif;}
 
+body {
+}
 
 header {
     background-color: gray;
@@ -29,8 +32,8 @@ ul a {
 
 .meta {
     display:grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 50px;
     margin: auto;
     text-align: center;
@@ -59,11 +62,22 @@ ul a {
 }
 
 .body {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     margin: 64px 0;
+    justify-content: center;   
 }
 .body p {
     margin: 32px;
+}
+
+.body>article>p {
+    width: 100%;
+}
+
+.body article {
+    width: 80%;
+    margin: auto;
 }
 
 .author-bio {
@@ -83,7 +97,6 @@ img {
 }
 
 footer {
-    position: fixed;
     bottom:0;
     left: 0;
     width: 100%;
