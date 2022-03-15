@@ -80,10 +80,12 @@ ul a {
     margin: 32px;
 }
 
-.synopsis article {
+.synopsis div {
     width: 65%;
 }
-
+.grid-3 li {
+    padding-bottom:10px;
+}
 .author-bio {
     margin-bottom: 48px;
 }
